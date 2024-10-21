@@ -1,0 +1,109 @@
+header{
+    background-image: linear-gradient(rgba(253, 73, 64, 0.7)0% 100%) ,url(../img/events-heavenly-header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+     
+}
+h1{
+    font-family: "Sedan SC", serif;
+font-weight: 500;
+line-height: 72px;
+font-size: 60px;
+color:white
+}
+#details{
+    background-image: linear-gradient(rgba(248, 100, 92, 0.7)0% 100%) ,url(../img/invitation-2508607__340.jpg);
+padding: 70px;
+}
+
+
+#details span{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 70px;
+}
+
+i{
+    color:gray
+}
+.socail{
+    display: flex;
+}
+.socail span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(128, 127, 127);
+    margin-right: 3px;
+    transition: all 0.5s;
+}
+.socail span:hover{
+    background-color: rgb(185, 1, 1);
+    
+}
+.socail span:hover i{
+    color: white;
+    
+}
+i{
+    transition: all 0.5s;
+}
+.open{
+    height: 100vh;
+    width:20%;
+    z-index: 99;
+    top:0;
+    left:-270px;
+    background-color: rgb(17, 17, 17);
+    
+
+}
+.openIcon{
+    right: -100px;
+    top:50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.close{
+    right:20px;
+font-size: 30px;
+cursor: pointer;
+}
+.open i{
+    font-size: 30px;
+    color:white;
+}
+.open a{
+    text-decoration: none;
+    color: white;
+
+}
+.open li:hover a,.open .close:hover{
+    color: brown;
+}
+#duration h3{
+    color: white;
+    background-color: rgb(230, 129, 132) ;
+    margin-bottom: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+#duration p{
+    color: white;
+background-color: rgb(204, 204, 204);
+padding: 20px;
+margin-bottom: 0;
+display: none;
+}
